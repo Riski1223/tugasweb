@@ -1,0 +1,79 @@
+<meta name="vieport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+
+<div class="w3-container">
+ <center><img src="css/nctdream.jpg" style="width: 65%;" height="350px">
+</div>
+
+<div class="w3-bar w3-display w3-purple w3-card-4">
+ <button class="w3-bar-item w3-button" onclick="openKota('Mark Lee')">Mark Lee</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('Jisung')">Jisung</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('Jaemin')">Jaemin</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('Jeno')">Jeno</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('Chenle')">Chenle</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('Haechan')">Haechan</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('Profile')">Profile</button>
+ 
+ </div>
+
+<div id="Mark Lee" class="w3-container kota w3-animate-top" style="display:none">
+<center><img src="css/marklee.jpg" alt="Mark Lee" style="width: 15%;">
+<h2>Mark Lee</h2>
+<h2>Mark Lee (lahir 2 Agustus 1999), lebih dikenal dengan nama Mark adalah rapper, dancer, dan penyanyi berkebangsaan Kanada. Ia merupakan anggota dari boyband asal Korea Selatan, NCT. Mark tergabung dalam 3 sub-unit NCT, yakni NCT U, NCT 127, dan NCT Dream</h2> 
+</div>
+
+<center>
+<div id="Jisung" class="w3-container kota w3-animate-bottom" style="display:none">
+<img src="css/jisung.jpg" alt="Jisung" style="width: 15%;">
+<h2>Ji-sung</h2>
+<h2>Park Ji-sung (박지성, lahir 5 Februari 2002), atau Jisung, adalah seorang penyanyi Korea Selatan yang berada di bawah naungan SM Entertainment. Ia adalah anggota grup vokal laki-laki NCT dan sub-unit NCT Dream</h2>
+</div>
+
+<center>
+<div id="Jaemin" class="w3-container kota w3-animate-left" style="display:none">
+<img src="css/jaemin.jpg" alt="Jaemin" style="width: 15%;">
+<h2>Jaemin</h2>
+<h2>Na Jae-min (나재민, lahir 13 Agustus 2000) adalah seorang penyanyi idola dan aktor Korea Selatan yang berada di bawah kontrak SM Entertainment. Ia adalah anggota grup vokal laki-laki NCT dan sub-unit NCT Dream.</h2>
+</div>
+
+<center>
+<div id="Jeno" class="w3-container kota w3-animate-right" style="display:none">
+<img src="css/jeno.jpg" alt="Jeno" style="width: 15%;">
+<h2>Jeno</h2>
+<h2>Lee Je-no (이제노, lahir 23 April 2000) adalah seorang penyanyi, rapper, penari, dan penulis lagu Korea Selatan yang berada di bawah kontrak SM Entertainment. Ia adalah anggota grup vokal laki-laki NCT, sub-unit NCT Dream.</h2>
+</div>
+
+<center>
+<div id="Chenle" class="w3-container kota w3-animate-fading" style="display:none">
+<img src="css/chenle.jpg" alt="Chenle" style="width: 15%;">
+<h2>Chenle
+<h2>Zhong Chenle (Hanzi: 钟辰乐; lahir 22 November 2001), yang lebih dikenal sebagai Chenle, adalah seorang penyanyi, penulis lagu, penari dan pemeran Tiongkok yang berbasis di Seoul, Korea Selatan. Ia adalah anggota grup vokal laki-laki Korea Selatan NCT,[1] sebagai bagian dari sub-unit NCT Dream.</h2>
+</div>
+
+<center>
+<div id="Haechan" class="w3-container kota w3-animate-zoom" style="display:none">
+<img src="css/haechan.jpg" alt="Haechan" style="width: 15%;">
+<h2>Haechan
+<h2>Lee Dong-hyuck lebih dikenal dengan nama Haechan (lahir 6 Juni 2000), Ia merupakan salah satu anggota dari boy band asal Korea Selatan, NCT, serta bagian dari tiga sub-unit NCT, NCT 127, NCT Dream, dan NCT U.</h2>
+</div>
+
+<center>
+<div id="Profile" class="w3-container" style="display:none">
+<h2>NAMA : RISKI</h2>
+<h2>NIM : 10123286</h2>
+<h2>KELAS : IF-7</h2>
+</div>
+
+
+<script>
+function openKota(namakota)
+{
+var i;
+var x =document.getElementsByClassName("kota")
+for (i = 0; i <x.length; i++)
+{
+ x[i].style.display = "none";
+}
+document.getElementById(namakota).style.display = "block";
+}
+</script>
